@@ -32,6 +32,12 @@ nav a {
 	padding-left: 15px;
 }
 
+nav img {
+	width: 20px;
+	vertical-align: middle;
+	transform: translateY(-10%);
+}
+
 main {
 	background-color: black;
 	border-top: 5px green solid;
