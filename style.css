@@ -1,10 +1,15 @@
 body {
+	height: 100%;
 	background-color: black;
 	color: white;
 	font-family: Verdana;
 	font-size: 19px;
 	margin:0px;
 	background-color: black;
+}
+
+html {
+	height: 100%;
 }
 
 a {
@@ -26,6 +31,8 @@ nav {
 	left: 0;
 	right: 0;
 	z-index: 1;
+	border-bottom: 5px rgba(0, 100, 0, 0) solid;
+	transition: 1.5s;
 }
 
 nav a {
@@ -52,20 +59,10 @@ section img {
 	padding-right: 50px;
 }
 
-@keyframes topbar-fade {
-	50% {
-		background-color: darkgreen;
-		border-bottom: 0px green solid;
-	}
-	100% {
-		background-color: darkgreen;
-		border-bottom: 5px green solid;
-	}
-}
-
 .changeColor {
-	animation: topbar-fade 800ms linear;
-	animation-fill-mode: forwards;
+	background-color: darkgreen;
+        border-bottom: 5px green solid;
+	transition: 0.5s;
 }
 
 .logo h1 {
@@ -78,10 +75,17 @@ section img {
 }
 
 header {
-	padding: 240px 30px 240px 30px;
+	height: calc(100vh - 200px);
+	min-height: 240px;
+	padding: 100px 30px 100px 30px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	font-size: 20px;
 	background-size: cover;
-	background-position: 0% 50%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-image: -webkit-linear-gradient(top, rgba(0,35,0,0.7) 0%, rgba(0,35,0,0.7) 100%), url("banner.jpg");
 }
 
@@ -101,4 +105,19 @@ footer {
 
 footer i {
 	padding: 10px;
+}
+
+section button {
+	background-color: darkgreen;
+	border: green 3px solid;
+	border-radius: 3px;
+	color: white;
+	transition: 750ms;
+}
+
+section button:hover {
+	background-color: black;
+	border-color: darkgreen;
+	/* transform: scale(1.1, 1.1); */ /* I wasnt sure about this, enable it if you want */
+	transition: 750ms;
 }
