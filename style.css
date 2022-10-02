@@ -52,9 +52,20 @@ section img {
 	padding-right: 50px;
 }
 
+@keyframes topbar-fade {
+	50% {
+		background-color: darkgreen;
+		border-bottom: 0px green solid;
+	}
+	100% {
+		background-color: darkgreen;
+		border-bottom: 5px green solid;
+	}
+}
+
 .changeColor {
-	background-color: darkgreen;
-	border-bottom: 5px green solid;
+	animation: topbar-fade 800ms linear;
+	animation-fill-mode: forwards;
 }
 
 .logo h1 {
@@ -69,6 +80,8 @@ section img {
 header {
 	padding: 240px 30px 240px 30px;
 	font-size: 20px;
+	background-size: cover;
+	background-position: 0% 50%;
 	background-image: -webkit-linear-gradient(top, rgba(0,35,0,0.7) 0%, rgba(0,35,0,0.7) 100%), url("banner.jpg");
 }
 
