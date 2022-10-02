@@ -139,6 +139,10 @@ body::-webkit-scrollbar-thumb {
 	scrollbar-color: darkgreen black;
 }
 
+noscript {
+	text-align: center;
+}
+
 @media (max-width: 965px) {
 	.navlinks {
 		display: none;
