@@ -13,9 +13,9 @@
 
 <nav>
 	<div class="logo">
-		<h1><b>Plus St</b></h1>
+		<h1><b><a href="./index.html">Plus St</a></b></h1>
 	</div>
-	<p>
+	<div class="navlinks">
 		<a href="./index.html"><i class="fa fa-home"></i> Home</a>
 		<a href="./services.html"><i class="fa fa-server"></i> Services</a>
 		<a href="./faq.html"><i class="fa fa-question-circle"></i> FAQ</a>
@@ -23,7 +23,16 @@
 		<a href="./privacy.html"><i class="fa fa-eye-slash"></i> Privacy</a>
 		<a href="./community.html"><i class="fa fa-users"></i> Community</a>
 		<a href="./donate.html"><i class="fa fa-money"></i> Donate</a>
-	</p>
+	</div>
+	<!-- If JS is disabled, don't have the header be transparent. -->
+	<noscript>
+		<style>
+			nav {
+				background-color: darkgreen;
+				border-bottom: 5px green solid;
+			}
+		</style>
+	</noscript>
 </nav>
 
 <header>
