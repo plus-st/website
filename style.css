@@ -121,3 +121,23 @@ section button:hover {
 	/* transform: scale(1.1, 1.1); */ /* I wasnt sure about this, enable it if you want */
 	transition: 750ms;
 }
+
+body::-webkit-scrollbar {
+	width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background-color: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: darkgreen;
+	border-radius: 6px;
+	border: 3px solid black;  /* creates padding around scroll thumb */
+	transition: 750ms;
+}
+
+* {
+	scrollbar-width: auto;
+        scrollbar-color: darkgreen black;
+}
