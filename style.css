@@ -93,7 +93,6 @@ header {
 
 footer {
 	color: white;
-	flex-direction: row;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -144,8 +143,15 @@ body::-webkit-scrollbar-thumb {
 	.navlinks {
 		display: none;
 	}
+	main {
+		padding: 15px;
+	}
 	main img {
-		width: 60px;
+		width: 50px;
+		padding: 15px 30px 15px 15px;
+	}
+	footer i {
+		padding: 5px;
 	}
 	.center {
 		display: none;
