@@ -169,6 +169,14 @@ noscript {
 	display: none;
 }
 
+.navlinks hr {
+	display: none;
+}
+
+hr {
+	margin: 0px;
+}
+
 @media (max-width: 1027px) {
 	.checkbox-hack .hambutton {
 		display: block;
@@ -177,8 +185,7 @@ noscript {
 		right: 24.9px;
 	}
 	.navlinks {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding: 0 0 60px 0;
 		z-index: 1;
 		position: fixed;
 		top: calc(-100% - 90px);
@@ -190,8 +197,17 @@ noscript {
 		border-bottom: 5px green solid;
 		overflow: auto;
 		text-align: center;
-		line-height: 2;
-		font-size: 25px;
+		line-height: 4;
+		font-size: 22px;
+	}
+	.navlinks i {
+		padding: 0px;
+	}
+	.navlinks hr {
+		display: block;
+	}
+	.selected {
+		background-color: green;
 	}
 	.shortnav { display: none !important; }
 	.longnav { display: block !important; }
