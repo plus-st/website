@@ -165,6 +165,10 @@ noscript {
 	transition: 1s;
 }
 
+.toslong {
+	display: none;
+}
+
 @media (max-width: 1015px) {
 	.checkbox-hack .hambutton {
 		display: block;
@@ -189,9 +193,9 @@ noscript {
 		line-height: 2;
 		font-size: 25px;
 	}
-	.navlinks a {
-		display: block;
-	}
+	.tos { display: none !important; }
+	.toslong { display: block !important; }
+	.navlinks a { display: block; }
 /* END HELL */
 	main {
 		padding: 15px;
