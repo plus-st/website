@@ -72,9 +72,9 @@ section img {
 }
 
 header {
-	height: calc(100vh - 200px);
-	min-height: 240px;
-	padding: 130px 30px 130px 30px;
+	box-sizing: border-box;
+	min-height: calc(100vh);
+	padding: 70px 30px 0px 30px;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -165,7 +165,11 @@ noscript {
 	transition: 1s;
 }
 
-@media (max-width: 1015px) {
+.longnav {
+	display: none;
+}
+
+@media (max-width: 1027px) {
 	.checkbox-hack .hambutton {
 		display: block;
 		position: fixed;
@@ -189,9 +193,9 @@ noscript {
 		line-height: 2;
 		font-size: 25px;
 	}
-	.navlinks a {
-		display: block;
-	}
+	.shortnav { display: none !important; }
+	.longnav { display: block !important; }
+	.navlinks a { display: block; }
 /* END HELL */
 	main {
 		padding: 15px;
