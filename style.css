@@ -165,11 +165,11 @@ noscript {
 	transition: 1s;
 }
 
-.toslong {
+.longnav {
 	display: none;
 }
 
-@media (max-width: 1015px) {
+@media (max-width: 1027px) {
 	.checkbox-hack .hambutton {
 		display: block;
 		position: fixed;
@@ -193,8 +193,8 @@ noscript {
 		line-height: 2;
 		font-size: 25px;
 	}
-	.tos { display: none !important; }
-	.toslong { display: block !important; }
+	.shortnav { display: none !important; }
+	.longnav { display: block !important; }
 	.navlinks a { display: block; }
 /* END HELL */
 	main {
