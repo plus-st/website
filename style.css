@@ -40,6 +40,14 @@ nav i{
 	padding-left: 15px;
 }
 
+.selected-long {
+	background-color: green;
+}
+
+.selected-short {
+	text-shadow: 0 0 5px white;
+}
+
 main {
 	background-color: black;
 	border-top: 5px green solid;
