@@ -11,9 +11,9 @@
     "display": "minimal-ui",
     "icons": [
       {
-        "src": "./icons/app-icon.svg",
+        "src": "./icons/app-icon.png",
         "sizes": "1024x1024",
-        "type": "image/svg",
+        "type": "image/png",
         "purpose": "maskable"
       }
     ]
