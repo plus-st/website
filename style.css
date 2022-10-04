@@ -245,3 +245,8 @@ hr {
 		display: none;
 	}
 }
+
+@media (max-width: 350px) {
+	.shortnav { display: block !important; }
+	.longnav { display: none !important; }
+}
