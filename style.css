@@ -40,6 +40,14 @@ nav i{
 	padding-left: 15px;
 }
 
+.selected-long {
+	background-color: green;
+}
+
+.selected-short {
+	text-shadow: 0 0 5px white;
+}
+
 main {
 	background-color: black;
 	border-top: 5px green solid;
@@ -157,12 +165,22 @@ noscript {
 	z-index: 2;
 	cursor: pointer;
   	user-select: none;
+	transition: 500ms;
+        background-image: url("./icons/bars.svg");
+	width: 38px;
+	height: 38px;
+	background-size: 100%
 }
 
 #hamburger:checked ~ .navlinks {
 	right: 0;
 	top: 0;
-	transition: 1s;
+	transition: 500ms;
+}
+
+#hamburger:checked ~ .hambutton {
+	background-image: url("./icons/close.svg");
+	transition: 500ms;
 }
 
 .longnav {
@@ -193,7 +211,7 @@ hr {
 		width: 100%;
 		height: calc(100% - 60px);
 		background-color: darkgreen;
-		transition: 1s;
+		transition: 500ms;
 		border-bottom: 5px green solid;
 		overflow: auto;
 		text-align: center;
