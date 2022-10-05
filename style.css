@@ -254,4 +254,8 @@ hr {
 @media (max-width: 350px) {
 	.shortnav { display: block !important; }
 	.longnav { display: none !important; }
+	.selected-short {
+		background-color: green;
+		text-shadow: 0 0 0px;
+	}
 }
