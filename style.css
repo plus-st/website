@@ -40,13 +40,6 @@ nav i{
 	padding-left: 15px;
 }
 
-.navimg {
-	box-sizing: border-box;
-	height: 91px;
-	width: 126px;
-	padding-top: 14.515px;
-}
-
 /* fixes issue on webkit based browsers */
 .checkbox-hack {
         width: calc(100% - 126px);	
