@@ -42,7 +42,7 @@ nav i{
 
 /* fixes issue on webkit based browsers */
 .checkbox-hack {
-        width: calc(100% - 126px);	
+        width: calc(100% - 127px);	
 	text-align: right;
 }
 
