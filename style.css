@@ -40,6 +40,12 @@ nav i{
 	padding-left: 15px;
 }
 
+/* fixes issue on webkit based browsers */
+.checkbox-hack {
+        width: calc(100% - 126px);	
+	text-align: right;
+}
+
 .selected-long {
 	background-color: green;
 }
