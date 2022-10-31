@@ -12,9 +12,16 @@ html {
 	height: 100%;
 }
 
+nav a {
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+}
+
 a {
 	color: white;
-	text-decoration: none;
 }
 
 a:hover {
@@ -83,6 +90,11 @@ section img {
 .logo h1 {
 	font-size: 30px;
 	font-family: monospace;
+}
+
+.logo img {
+	width: 30px;
+	display: inline-block;
 }
 
 header {
