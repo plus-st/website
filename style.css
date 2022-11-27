@@ -144,6 +144,11 @@ section button:hover {
 	transition: 750ms;
 }
 
+section .info {
+	background-color: darkgreen;
+	padding: 0 25px 0 25px;
+}
+
 *::-webkit-scrollbar {
 	width: 12px;               /* width of the entire scrollbar */
 }
