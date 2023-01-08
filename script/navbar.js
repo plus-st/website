@@ -1,9 +1,9 @@
 $(function() {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1) {
-            $('nav').addClass('changeColor')
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+            $('.navigation').addClass('navigationChangeColor')
         } else {
-            $('nav').removeClass('changeColor')
+            $('.navigation').removeClass('navigationChangeColor')
         }
     });
 });

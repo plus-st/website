@@ -1,105 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Plus St</title>
-	<link rel="icon" type="image/x-icon" href="./icons/favi.png"/>
-	<link rel="stylesheet" href="./style.css"/>
-	<link rel="stylesheet" href="./fonts/forkawesome/css/fork-awesome.min.css">
-	<link rel="manifest" href="./manifest.webmanifest">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#008000" />
-	<meta name="description" content="Plus St is your go-to place for privacy focused online communication, tools, private frontends, social networking, and more!">
-	<meta property="og:title" content="Plus St"/>
-	<meta property="og:url" content="https://plus.st/"/>
-	<meta property="og:description" content="Plus St is your go-to place for secure online services."/>
-	<meta property="og:image" content="./images/preview.jpg"/>
-	<meta name="twitter:card" content="Plus St is your go-to place for secure online services."/>
-	<script src="./script/jquery.js"></script>
-	<script src="./script/navbar.js"></script>
+    <title>Plus St</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo-favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./fonts/forkawesome/css/fork-awesome.min.css">
+    <meta name="theme-color" content="#008000" />
+    <meta name="description" content="We Create, Host, and Provide the Tools That Empower You Online.">
+    <meta property="og:title" content="Plus St" />
+    <meta property="og:url" content="https://plus.st/" />
+    <meta property="og:description" content="Plus St is your go-to place for secure online services." />
+    <meta property="og:image" content="./images/preview.jpg" />
+    <meta name="twitter:card" content="Plus St is your go-to place for secure online services." />
+    <script src="./script/jquery.js"></script>
+    <script src="./script/navbar.js"></script>
 </head>
 
-<noscript>
-	<style>
-		nav {
-			background-color: darkgreen;
-			border-bottom: 5px green solid;
-		}
-	</style>
-</noscript>
+<div class="navigation">
+    <div class="navigationDesktop">
+        <div class="navigationLogo">
+            <a href="./index.html"><img alt="Plus St Logo Text" src="./images/logo-text.png" /></a>
+        </div>
+        <div class="navigationLinks">
+            <a class="navigationSelected" href="./index.html"><i class="fa fa-home"></i> Home</a>
+            <a href="./services.html"><i class="fa fa-server"></i> Services</a>
+            <a href="./blog.html"><i class="fa fa-newspaper-o"></i> Blog</a>
+            <a href="./terms.html"><i class="fa fa-book"></i> Terms</a>
+            <a href="./privacy.html"><i class="fa fa-eye-slash"></i> Privacy</a>
+            <a href="./community.html"><i class="fa fa-users"></i> Community</a>
+            <a href="./donate.html"><i class="fa fa-money"></i> Donate</a>
+        </div>
+    </div>
+    <div class="navigationMobile">
+        <input type="checkbox" id="navigationMobileIcon" />
+        <label for="navigationMobileIcon" class="navigationMobileButton"></label>
+        <div class="navigationMobileLinks">
+            <a class="navigationSelected" href="./index.html"><i class="fa fa-home"></i> Homepage</a>
+            <hr/>
+            <a href="./services.html"><i class="fa fa-server"></i> Services</a>
+            <hr/>
+            <a href="./blog.html"><i class="fa fa-newspaper-o"></i> Blog</a>
+            <hr/>
+            <a href="./terms.html"><i class="fa fa-book"></i> Terms of Service</a>
+            <hr/>
+            <a href="./privacy.html"><i class="fa fa-eye-slash"></i> Privacy Policy</a>
+            <hr/>
+            <a href="./community.html"><i class="fa fa-users"></i> Community Channels</a>
+            <hr/>
+            <a href="./donate.html"><i class="fa fa-money"></i> Donate</a>
+        </div>
+    </div>
+</div>
 
-<nav>
-	<div class="logo">
-		<h1><b><a href="./index.html">Plus St</a></b></h1>
-	</div>
-	<div class="checkbox-hack">
-		<input type="checkbox" id="hamburger"/>
-		<label for="hamburger" class="hambutton"></label>
-		<div class="navlinks">
-			<a href="./index.html" class="selected-short shortnav"><i class="fa fa-home"></i> Home<hr/></a>
-			<a href="./index.html" class="selected-long longnav"><i class="fa fa-home"></i> Homepage<hr/></a>
-			<a href="./services.html"><i class="fa fa-server"></i> Services<hr/></a>
-			<a href="./tos.html" class="shortnav"><i class="fa fa-book"></i> ToS<hr/></a>
-			<a href="./tos.html" class="longnav"><i class="fa fa-book"></i> Terms of Service<hr/></a>
-			<a href="./privacy.html" class="shortnav"><i class="fa fa-eye-slash"></i> Privacy<hr/></a>
-			<a href="./privacy.html" class="longnav"><i class="fa fa-eye-slash"></i> Privacy Policy<hr/></a>
-			<a href="./community.html"><i class="fa fa-users"></i> Community<hr/></a>
-			<a href="./donate.html"><i class="fa fa-money"></i> Donate</a>
-		</div>
-	</div>
-</nav>
+<div class="banner">
+    <div class="bannerText">
+        <h1>We Create, Host, and Provide the Tools That Empower You Online.</h1><br/>
+    </div>
+</div>
 
-<header>
-	<div class="hwrap">
-		<h1>Welcome to Plus St.<br>We provide online services.<br>For free, for everyone.</h1>
-		<p>Plus St is your go-to place for privacy focused online communication, tools, private frontends, social networking, and more!</p>
-	</div>
-</header>
+<div class="mainContent">
+    <div class="mainContentIcon">
+        <img alt="Home Icon" aria-hidden="true" src="icons/home.svg" />
+    </div>
+    <div class="mainContentText">
+        <h1>Welcome to Plus St!</h1>
+        <p>Ever since March of 2022, Plus St has always been your go-to place for self hosted, privacy oriented, and security focused online services!</p>
+    </div>
+</div>
 
-<main>
-	<section>
-		<img src="./icons/home.svg"/>
-		<summary>
-			<h1>Welcome to Plus St!</h1>
-			<p>Ever since 2022, Plus St is your go-to place for privacy focused web services. All hosted with security in mind on Alpine Linux!</p>
-        </summary>
-    </section>
-	<section>
-		<img src="./icons/server.svg"/>
-		<summary>
-			<h1>Fast, and always updated.</h1>
-			<p>We at Plus St make sure that our software is always updated, meaning your data is always secure and you get new features from our services quickly.</p>
-		</summary>
-	</section>
-	<section>
-		<img src="./icons/eye-slash.svg"/>
-		<summary>
-			<h1>Privacy is a human right</h1>
-			<p>One of Plus St's main goals is to protect user privacy. We don't sell your data to third parties, and we don't snoop on your activity.</p>
-		</summary>
-	</section>
-	<section>
-		<img src="./icons/money.svg"/>
-		<summary>
-			<h1>For free, and always for free.</h1>
-			<p>We guarantee that you will freely be able to use Plus St without spending a dime, and Plus St will never paywall a service!</p>
-		</summary>
-	</section>
-	<section>
-		<img src="./icons/question.svg"/>
-		<summary>
-			<h1>Any questions?</h1>
-			<p>Head on over to our <a href="./community.html">Community</a> where your questions related to Plus St can be answered!</p>
-		</summary>
-	</section>
-</main>
+<div class="mainContent">
+    <div class="mainContentIcon">
+        <img alt="Users Icon" aria-hidden="true" src="icons/users.svg" />
+    </div>
+    <div class="mainContentText">
+        <h1>Welcome to Everyone.</h1>
+        <p>One of Plus St's goals is to foster a friendly community among our services, that is welcoming and friendly to everyone.</p>
+    </div>
+</div>
 
-<footer>
-	<div class="logo">
-		<h1><b><a href="./index.html">Plus St</a></b></h1>
-	</div>
-	<div>
-		<a href="https://git.plus.st/plus-st"><i class="fa fa-gitea fa-lg" aria-hidden="true"></i></a>
-		<a rel="me" href="https://plma.plus.st/plus-st"><i class="fa fa-pleroma fa-lg" aria-hidden="true"></i></a>
-	</div>
-</footer>
+<div class="mainContent">
+    <div class="mainContentIcon">
+        <img alt="Server Icon" aria-hidden="true" src="icons/server.svg" />
+    </div>
+    <div class="mainContentText">
+        <h1>Fast, and always updated.</h1>
+        <p>We at Plus St make sure that our software is always up to date, meaning your data is always secure and you get the newest features from our services quickly.</p>
+    </div>
+</div>
+
+<div class="mainContent">
+    <div class="mainContentIcon">
+        <img alt="Eye-Slash Icon" aria-hidden="true" src="icons/eye-slash.svg" />
+    </div>
+    <div class="mainContentText">
+        <h1>Privacy, that's your human right.</h1>
+        <p>Protecting your privacy is neccesary. We don't sell your data to third parties, we only collect what is needed for services to function properly, and we don't snoop on your activity.</p>
+    </div>
+</div>
+
+<div class="mainContent">
+    <div class="mainContentIcon">
+        <img alt="Money Icon" aria-hidden="true" src="icons/money.svg" />
+    </div>
+    <div class="mainContentText">
+        <h1>For free, always for free.</h1>
+        <p>Plus St guarantees you that all of our services we host services will never have their basic features paywalled, ever.</p>
+    </div>
+</div>
+
+<div class="mainContent">
+    <div class="mainContentIcon">
+        <img alt="Question Icon" aria-hidden="true" src="icons/question.svg" />
+    </div>
+    <div class="mainContentText">
+        <h1>Need Help? Have a Question?</h1>
+        <p>Don't fret, we're here to help! Head on down to our <a href="./community.html">community</a> where you can get support and your questions answered by the Plus St Community!</p>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footerText">
+        <div class="footerLogo">
+            <img alt="Plus St Sign Logo" src="./images/logo.svg" />
+        </div>
+        <div class="footerSection1">
+            <h3>Site Layout</h3>
+            <p><i class="fa fa-home"></i> <a href="./index.html">Homepage</a></p>
+            <p><i class="fa fa-server"></i> <a href="./services.html">Services</a></p>
+            <p><i class="fa fa-newspaper-o"></i> <a href="./blog.html">Blog</a></p>
+            <p><i class="fa fa-book"></i> <a href="./terms.html">Terms of Service</a></p>
+            <p><i class="fa fa-eye-slash"></i> <a href="./privacy.html">Privacy Policy</a></p>
+            <p><i class="fa fa-users"></i> <a href="./community.html">Community</a></p>
+            <p><i class="fa fa-money"></i> <a href="./donate.html">Donate</a></p>
+        </div>
+        <div class="footerSection2">
+            <h3>Outside Links</h3>
+            <p><i class="fa fa-gitea"></i> <a href="https://git.plus.st/plus-st">Gitea Repos</a></p>
+            <p><i class="fa fa-pleroma"></i> <a href="https://plma.plus.st/plus-st">Fediverse Profile</a></p>
+            <p><i class="fa fa-liberapay"></i> <a href="https://liberapay.com/plus-st"> Liberapay Profile</a></p>
+        </div>
+        <div class="footerSection3">
+            <h3>Contact Us</h3>
+            <p><b>Public Methods:</b></p>
+            <p><i class="fa fa-matrix-org"></i> <a href="https://matrix.to/#/#plus-st:plus.st">Matrix Space</a></p>
+            <p><i class="fa fa-discord-alt"></i> <a href="https://discord.gg/qdSqqjnNPv">Discord Server</a></p>
+            <p><b>Private Methods:</b></p>
+            <p><i class="fa fa-envelope"></i> <a href="mailto:itzzen@pm.me">Email</a></p>
+            <p><i class="fa fa-matrix-org"></i> <a href="https://matrix.to/#/@itzzenxx:plus.st">Matrix DM</a></p>
+            <p><i class="fa fa-phone"></i> <a href="">Phone Number</a></p>
+        </div>
+    </div>
+</div>
+
 </html>
