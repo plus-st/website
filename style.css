@@ -148,7 +148,7 @@ body a:hover {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(images/banner.png)
+    background-image: url(images/banner.webp)
 }
 
 .bannerText {
@@ -215,6 +215,26 @@ body a:hover {
 .mainContentButton:hover {
     background-color: black;
     border-color: darkgreen;
+    transform: scale(1.1, 1.1);
+    transition: 750ms
+}
+
+.mainContentButtonOnion {
+    background-color: #800080;
+    border: #993299 3px solid;
+    border-radius: 3px;
+    margin-right: 7px;
+    color: #f5f5f5;
+    transition: 750ms;
+    appearance: button;
+    padding: 2px 6px 2px 6px;
+    font-size: small;
+    text-decoration: none
+}
+
+.mainContentButtonOnion:hover {
+    background-color: black;
+    border-color: #660066;
     transform: scale(1.1, 1.1);
     transition: 750ms
 }
