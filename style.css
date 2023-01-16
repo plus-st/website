@@ -40,7 +40,8 @@ body a:hover {
 }
 
 .navigation img {
-    width: 130px
+    width: 130px;
+    height: 27px
 }
 
 .navigation .navigationSelected {
@@ -178,7 +179,8 @@ body a:hover {
 }
 
 .mainContent .mainContentIcon img {
-    width: 90px
+    width: 90px;
+    height: 90px
 }
 
 .mainContent .mainContentIcon {
@@ -264,7 +266,8 @@ body a:hover {
 }
 
 .footerText .footerLogo img {
-    width: 175px
+    width: 175px;
+    height: 247px
 }
 
 .footerText .footerSection1 {
@@ -328,7 +331,8 @@ body a:hover {
     }
 
     .mainContent .mainContentIcon img {
-        width: 60px
+        width: 60px;
+        height: 60px
     }
 
     .footer {
