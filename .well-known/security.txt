@@ -1,0 +1,5 @@
+Contact: mailto:june@girlboss.ceo
+Contact: mailto:itzzen@pm.me
+Expires: 2024-01-22T05:00:00.000Z
+Preferred-Languages: en
+Canonical: https://plus.st/.well-known/security.txt
