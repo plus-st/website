@@ -26,12 +26,12 @@ body a:hover {
 }
 
 .navigation {
+    background-color: rgba(0, 100, 0, 0.8);
     position: fixed;
     padding: 25px;
     left: 0;
     right: 0;
     z-index: 1;
-    transition: .5s
 }
 
 .navigation a {
@@ -46,11 +46,6 @@ body a:hover {
 
 .navigation .navigationSelected {
     font-weight: 700
-}
-
-.navigationChangeColor {
-    background-color: darkgreen;
-    transition: 0.5s;
 }
 
 .navigationDesktop {
@@ -381,11 +376,5 @@ body a:hover {
 
     .mainContent .mainContentIcon img {
         display: none
-    }
-}
-
-@media (scripting:none) {
-    .navigation {
-        background-color: #006400
     }
 }
