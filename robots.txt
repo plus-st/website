@@ -1,0 +1,3 @@
+User-Agent: *
+Crawl-Delay: 5
+Sitemap: https://plus.st/sitemap.xml
