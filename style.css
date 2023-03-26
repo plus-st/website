@@ -158,6 +158,17 @@ body a:hover {
     display: inline
 }
 
+.warning {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.warning-text {
+    padding: 15px;
+    background-color: darkgreen;
+    margin: 50px 20px 0 20px;
+}
+
 .mainContent {
     max-width: 1200px;
     margin: 0 auto;
