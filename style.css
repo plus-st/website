@@ -54,7 +54,7 @@ header {
     padding: 35px 60px 35px 60px;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 2;
 }
 
 header .header-logo {
@@ -75,6 +75,7 @@ header ul li {
 }
 
 header ul li a {
+    pointer-events: auto; /* delete if you want the navbar to not work. */
     font-family: highway-gothic-wide;
     font-size: 20px;
     color: white;
@@ -85,8 +86,41 @@ header ul li a {
     transition-duration: 0.3s;
 }
 
+header ul li {
+	pointer-events: none; /* makes it so hovering over only li and not the link does not trigger just the animation on the li element */
+	border-radius: 9999px;
+	background-color: rgba(0 255 0 0);
+	margin: 9px 4px 9px 14px;
+	transition: padding 0.5s, margin 0.5s;
+}
+
+@property --angle {
+	syntax: '<angle>';
+	initial-value: -20deg;
+	inherits: false;
+}
+
+header ul li:hover {
+	padding: 9px 4px 9px 4px;
+	margin: 0px 0px 0px 10px;
+	--angle: -20deg;
+	background-image: linear-gradient(var(--angle), lightgreen, darkgreen);
+       	box-shadow: calc(2px * cos(var(--angle))) calc(2px * sin(var(--angle))) 7px 2px rgba(0, 90, 0, 0.75),
+       	calc(2px * cos(calc(var(--angle) + 180deg))) calc(2px * sin(calc(var(--angle) + 180deg))) 7px 2px rgba(0, 200, 0, 0.75); /* I hate that I'm actually using trig stuff in the real world, and in CSS of all things. it's fucked in older browsers though. TODO: write some JS to increase compatibility for sin and cos or convert to plain calc */
+	transition: padding 0.5s, margin 0.5s;
+	animation: button 2s linear infinite;
+}
+
+@keyframes button {
+	0% { --angle: -20deg; }
+	25% { --angle: 20deg; }
+	50% { --angle: 160deg; } /* these numbers are NOT arbitrary. I used a LOT of math to get them. DO NOT FUCK WITH THEM. lol. */
+	75% { --angle: 200deg; }
+	100% { --angle: 340deg; }
+}
+
 header ul li a:hover,
-a.active {
+a.active { 
     padding: 6px 15px;
     margin: 0px 0px;
     background-color: white;
@@ -94,14 +128,37 @@ a.active {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
+header ul li a.active:hover {
+	 background-color: rgb(255, 255, 255);
+}
+
 header ul li a.active {
     background-color: rgb(255, 255, 255, 0.7);
 }
+
 
 header ul li a:active {
     padding: 4px 12px;
     margin: 2px 3px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-background-1, .navbar-background-2 {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: var(--color-background);
+	top: 44px; /* fixes tiny gap from bug in browsers */
+	margin-bottom: 20px;
+	width: 100%;
+	z-index: 1;
+	height: 45px;
+}
+.navbar-background-2 {
+	margin-top: -60px;
+	top: 0px;
+}
+.navbar-background-1 {	
+	box-shadow: 0px 20px 20px 10px var(--color-background);
 }
 
 main {
