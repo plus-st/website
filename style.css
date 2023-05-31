@@ -12,6 +12,7 @@
     --color-text: black;
     --color-text-soft: rgba(0, 0, 0, 0.2);
     --color-background: white;
+    --color-background-transparent: rgba(255, 255, 255, 0.7);
     --color-drop-shadow: rgba(255, 255, 255, 0.7);
 }
 
@@ -19,6 +20,7 @@
     :root {
         --color-text: white;
         --color-text-soft: rgba(255, 255, 255, 0.3);
+        --color-background-transparent: rgba(0, 0, 0, 0.7);
         --color-background: black;
     }
 }
@@ -149,21 +151,25 @@ header ul li a:active {
 }
 
 .navbar-background-1, .navbar-background-2 {
-	position: -webkit-sticky;
-	position: sticky;
-	background-color: var(--color-background);
+	background-color: var(--color-background-transparent);
+    backdrop-filter: blur(10px);
 	top: 44px; /* fixes tiny gap from bug in browsers */
 	margin-bottom: 20px;
 	width: 100%;
 	z-index: 1;
-	height: 45px;
 }
-.navbar-background-2 {
-	margin-top: -60px;
-	top: 0px;
-}
+
 .navbar-background-1 {	
 	box-shadow: 0px 20px 20px 10px var(--color-background);
+    height: 50px;
+}
+
+.navbar-background-2 {
+    position: sticky;
+    position: -webkit-sticky;
+    height: 110px;
+	margin-top: -60px;
+	top: -1px;
 }
 
 main {
