@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+
+<svg:svg
+   version="1.1"
+   xml:space="preserve"
+   viewBox="0 0 200 200"
+   width="200px"
+   height="200px"
+   x="0px"
+   y="0px"
+   enable-background="new 0 0 200 200"
+   id="svg2967"
+   sodipodi:docname="xmpp.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg"><svg:defs
+   id="defs2971" /><sodipodi:namedview
+   id="namedview2969"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="3.91"
+   inkscape:cx="96.803069"
+   inkscape:cy="100"
+   inkscape:window-width="1920"
+   inkscape:window-height="1011"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg2967" /><script />
+
+<svg:linearGradient
+   id="SVGID_right_"
+   y2="1.279e-13"
+   gradientUnits="userSpaceOnUse"
+   x2="-1073.2"
+   gradientTransform="matrix(1.1580619,0,0,1.1580619,1370.205,27.615119)"
+   y1="126.85"
+   x1="-1073.2">
+	<svg:stop
+   stop-color="#1b3967"
+   offset=".011"
+   id="stop2941" />
+	<svg:stop
+   stop-color="#13b5ea"
+   offset=".467"
+   id="stop2943" />
+	<svg:stop
+   stop-color="#002b5c"
+   offset=".9945"
+   id="stop2945" />
+</svg:linearGradient>
+
+<svg:linearGradient
+   id="SVGID_left_"
+   y2="1.279e-13"
+   gradientUnits="userSpaceOnUse"
+   x2="-1073.2"
+   gradientTransform="matrix(-1.1580619,0,0,1.1580619,-1167.5627,27.61396)"
+   y1="126.85"
+   x1="-1073.2">
+	<svg:stop
+   stop-color="#1b3967"
+   offset=".011"
+   id="stop2948" />
+	<svg:stop
+   stop-color="#13b5ea"
+   offset=".467"
+   id="stop2950" />
+	<svg:stop
+   stop-color="#002b5c"
+   offset=".9945"
+   id="stop2952" />
+</svg:linearGradient>
+
+
+
+
+
+
+
+<svg:g
+   id="g4225"><svg:path
+     d="m 160.26317,44.046861 c 0.0892,1.520535 -2.06945,1.121003 -2.06945,2.655436 0,44.644447 -53.91705,112.755873 -106.180371,125.916083 v 1.89807 C 121.44263,168.12395 200.89378,95.999837 202.64245,27.616277 l -42.38391,16.431742 z"
+     style="fill:#ffffff;stroke-width:1.15806"
+     id="path2955" /><svg:path
+     d="m 139.26519,49.539549 c 0.088,1.520534 0.13897,3.045703 0.13897,4.58245 0,44.644449 -35.55132,104.801151 -87.812344,117.960211 v 1.89806 c 68.376614,-3.231 122.534524,-72.98571 122.534524,-126.460381 0,-2.750398 -0.14823,-5.476476 -0.42964,-8.171285 l -34.42917,10.188629 z"
+     style="fill:#ffffff;stroke-width:1.15806"
+     id="path2957" /><svg:path
+     d="m 174.0279,38.712828 -8.82095,3.152244 c 0.0475,1.114055 0.0765,2.610272 0.0765,3.73475 0,47.734156 -43.16212,113.726328 -101.06637,124.051608 -3.757923,1.25997 -8.729483,2.4053 -12.659934,3.39427 v 1.89691 C 127.12524,168.50379 180.21775,91.717324 174.03369,38.708195 Z"
+     style="fill:#ffffff;stroke-width:1.15806"
+     id="path2959" /><svg:path
+     d="m 42.379276,44.045702 c -0.08917,1.520536 2.069457,1.121005 2.069457,2.655436 0,44.644448 53.917056,112.755872 106.180367,125.916092 v 1.89806 C 81.199828,168.12279 1.7486735,95.99868 0,27.615119 l 42.383909,16.431742 z"
+     style="fill:#ffffff;stroke-width:1.15806"
+     id="path2961" /><svg:path
+     d="m 63.377255,49.53839 c -0.08802,1.520536 -0.138967,3.045703 -0.138967,4.582452 0,44.644447 35.551337,104.801148 87.812352,117.960198 v 1.89807 C 82.674041,170.74811 28.516117,100.9934 28.516117,47.51873 c 0,-2.750397 0.148232,-5.476474 0.429641,-8.171284 l 34.429181,10.188628 z"
+     style="fill:#ffffff;stroke-width:1.15806"
+     id="path2963" /><svg:path
+     d="m 28.614552,38.711669 8.820957,3.152245 c -0.04748,1.114056 -0.07643,2.610271 -0.07643,3.73475 0,47.734157 43.162126,113.726326 101.066371,124.051606 3.75791,1.25998 8.72946,2.40529 12.65993,3.39428 v 1.8969 C 75.517219,168.50263 22.424711,91.716167 28.608762,38.707037 Z"
+     style="fill:#ffffff;stroke-width:1.15806"
+     id="path2965" /></svg:g>
+
+</svg:svg>
